@@ -41,6 +41,7 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 
  # On Jupyter Notebook:
  1. Simply call 
+ 
  `compare_kmeans( N=number of total data points
                   
                   d=dimensionality/number of features in data
