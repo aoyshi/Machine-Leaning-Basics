@@ -1,5 +1,5 @@
 # Machine-Leaning-Basics
-Documenting my journey into ML/AI.
+Documenting my journey into ML/AI.\
 Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo0jM
 
 ## Progress so far:
