@@ -46,3 +46,12 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
                   k=number of clusters, 
                   maxIter=maximum iterations to run )`
 2. Program will print out detailed comparison between my kmeans function (from scratch) vs sci-kit learn's built-in kmeans function outputs.
+
+# Helpful Links:
+1. Explanation of k-means++ seeding: https://www.youtube.com/watch?v=h_cVHtV0XoA
+2. Limitations of k-means: https://stats.stackexchange.com/questions/133656/how-to-understand-the-drawbacks-of-k-means
+3. Comprehensive Guide for k-means: https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-k-means-clustering/
+4. Weighted probability random selection: https://stats.stackexchange.com/questions/272114/using-kmeans-computing-weighted-probability-for-kmeans-initialization
+5. Other people's kmeans++ implementations: 
+-> https://datasciencelab.wordpress.com/2014/01/15/improved-seeding-for-clustering-with-k-means/
+-> https://medium.com/machine-learning-algorithms-from-scratch/k-means-clustering-from-scratch-in-python-1675d38eee42
