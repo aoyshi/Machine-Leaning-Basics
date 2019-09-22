@@ -12,10 +12,10 @@ OUTPUT:
 
 # PSEUDOCODE:
 I. Initialize/seed k centroids using kmeans++ (can also use Llyod's random initialization)
-a. Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
-b. For each remaining centroid (c=1 -> k-1), do
- b1. Get min squared distance from each data point in X to nearest centroid (thats already been chosen) -> store in array DX2
- b2. Get weighted probability distribution of each data point wrt DX2
+--a. Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
+--b. For each remaining centroid (c=1 -> k-1), do
+-- b1. Get min squared distance from each data point in X to nearest centroid (thats already been chosen) -> store in array DX2
+-- b2. Get weighted probability distribution of each data point wrt DX2
 Pick data point from X randomly by weight of DX2/DX2.sum - this is next centroid
 II. Initialize counter for number of iterations
 III. while number of iterations < 1000, do
