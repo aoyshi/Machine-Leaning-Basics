@@ -54,5 +54,5 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 4. Weighted probability random selection: https://stats.stackexchange.com/questions/272114/using-kmeans-computing-weighted-probability-for-kmeans-initialization
 5. Comparison k-means++ vs Lloyd's seeding: http://www.cs.columbia.edu/~jebara/6772/proj/oldprojects/bal2123_BATS-Means.pdf
 6. Other people's kmeans++ implementations:
-  *https://datasciencelab.wordpress.com/2014/01/15/improved-seeding-for-clustering-with-k-means/
-  *https://medium.com/machine-learning-algorithms-from-scratch/k-means-clustering-from-scratch-in-python-1675d38eee42
+  * https://datasciencelab.wordpress.com/2014/01/15/improved-seeding-for-clustering-with-k-means/
+  * https://medium.com/machine-learning-algorithms-from-scratch/k-means-clustering-from-scratch-in-python-1675d38eee42
