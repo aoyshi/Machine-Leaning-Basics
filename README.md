@@ -19,7 +19,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 3. Machine Learning Algorithms by Giuseppe Bonaccorso
 4. Artificial Intelligence: A Modern Approach by Russell & Norvig
 
-## Useful Websites:
+## Useful Links:
 1. Python Exercises: https://www.pythonmorsels.com/exercises/list/
 2. Vassilis ML/AI Course: http://vlm1.uta.edu/~athitsos/courses/
 3. ML Projects Ideas:
@@ -29,3 +29,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
   * https://www.upgrad.com/blog/6-interesting-machine-learning-project-ideas-for-beginners/
   * https://elitedatascience.com/machine-learning-projects-for-beginners
   * https://www.dezyre.com/article/top-10-machine-learning-projects-for-beginners/397
+4. YouTube Tutorials:
+  * ML: https://www.youtube.com/playlist?list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy
+  * ML: https://www.youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn
+  * AI: https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI
