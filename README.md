@@ -4,6 +4,7 @@ Documenting my journey into ML/AI
 ## Progress so far:
 ### Unsupervised Learning
 1. K-Means Clustering with K-Means++ Seeding
+2. K-NN (K Nearest Neighbors)
 ### Supervised Learning
 1. Naive Baye's Classifier
 2. Logistic Regression
