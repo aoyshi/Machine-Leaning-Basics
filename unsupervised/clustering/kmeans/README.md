@@ -26,15 +26,21 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 2. Initialize counter for number of iterations
 
 3. While number of iterations < 1000, do
+
     (i) Increment number of iterations counter
+    
     3a. For each data point in X
+    
         (i) calculate it's Euclidean (squared, L2) distance from each of the k centroids 
        (ii) assign data point to the closest centroid (min dist)
+       
     3b. For each centroid
-       (i) find the mean of all the data points assigned to it
+    
+       (i) find the mean of all the data points assigned to it       
       (ii) assign new centroid value to corresponding old one
-      (iii) calculate the L2-norm distance between new and old centroid
+     (iii) calculate the L2-norm distance between new and old centroid
       (iv)  if this L2-norm distance is <= 0
+      
       
  # On Jupyter Notebook:
  1. Simply call 
