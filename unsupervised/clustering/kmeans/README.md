@@ -51,8 +51,8 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 2. Program will print out detailed comparison between my kmeans function (from scratch) vs sci-kit learn's built-in kmeans function outputs.
 
 ## Notes:
-KMeans++ vs Lloyd's:/
-Lloyd's random initialization (seeding) of centroids can lead to iterations where a centroid has 0 assignments, which leads to NaN values for the new centroids (remember that each centroid is sum of assignees / count of assignees)./
+KMeans++ vs Lloyd's:\
+Lloyd's random initialization (seeding) of centroids can lead to iterations where a centroid has 0 assignments, which leads to NaN values for the new centroids (remember that each centroid is sum of assignees / count of assignees).\
 KMeans++ does a smarter random seeding of centroids - data points that are farther away from the set of already chosen centroids are more likely to be picked as the next centroid.
 
 ## Limitations of my implementation:
