@@ -57,6 +57,7 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 4. Weighted probability random selection: https://stats.stackexchange.com/questions/272114/using-kmeans-computing-weighted-probability-for-kmeans-initialization
 5. Comparison k-means++ vs Lloyd's seeding: http://www.cs.columbia.edu/~jebara/6772/proj/oldprojects/bal2123_BATS-Means.pdf
 6. Super detailed k-means++ math on excel: http://www.real-statistics.com/multivariate-statistics/cluster-analysis/initializing-clusters-k-means/
-7. Other people's kmeans++ implementations:
+7. Article on clever seeding: http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf
+8. Other people's kmeans++ implementations:
   * https://datasciencelab.wordpress.com/2014/01/15/improved-seeding-for-clustering-with-k-means/
   * https://medium.com/machine-learning-algorithms-from-scratch/k-means-clustering-from-scratch-in-python-1675d38eee42
