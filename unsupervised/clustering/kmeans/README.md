@@ -1,7 +1,7 @@
 # K-MEANS CLUSTERING:
--- Partition N observations into k clusters such that each observation belongs to the cluster with the nearest mean. 
--- Works on labeled data (since unsupervised)
--- Finds inherent groupings in any given data (how is my data set organized?)
+1. Partition N observations into k clusters such that each observation belongs to the cluster with the nearest mean. 
+2. Works on labeled data (since unsupervised)
+3. Finds inherent groupings in any given data (how is my data set organized?)
 
 ## INPUT:
 X = 2D data set (represented as nxp matrix : n rows, p columns, i.e. n data points, each with p attributes/features)
@@ -13,9 +13,9 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 # PSEUDOCODE:
 1. Initialize/seed k centroids using kmeans++ (can also use Llyod's random initialization)
 
-   (i) Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
+   1a. Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
    
-  (ii) For each remaining centroid (c=1 -> k-1), do
+   1b. For each remaining centroid (c=1 -> k-1), do
   
        (i) Get min squared distance from each data point in X to nearest centroid (thats already been chosen) -> store in array DX2
        
@@ -27,21 +27,20 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 
 3. While number of iterations < 1000, do
 
-    (i) Increment number of iterations counter
+    3a. Increment number of iterations counter
     
-    3a. For each data point in X
+    3b. For each data point in X
     
         (i) calculate it's Euclidean (squared, L2) distance from each of the k centroids 
        (ii) assign data point to the closest centroid (min dist)
        
-    3b. For each centroid
+    3c. For each centroid
     
-       (i) find the mean of all the data points assigned to it       
-      (ii) assign new centroid value to corresponding old one
-     (iii) calculate the L2-norm distance between new and old centroid
-      (iv)  if this L2-norm distance is <= 0
-      
-      
+         (i) find the mean of all the data points assigned to it
+        (ii) assign new centroid value to corresponding old one
+       (iii) calculate the L2-norm distance between new and old centroid
+        (iv)  if this L2-norm distance is <= 0
+
  # On Jupyter Notebook:
  1. Simply call 
  `compare_kmeans( N=number of total data points
