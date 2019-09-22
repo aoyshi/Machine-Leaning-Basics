@@ -28,3 +28,4 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
   * https://medium.mybridge.co/30-amazing-machine-learning-projects-for-the-past-year-v-2018-b853b8621ac7
   * https://www.upgrad.com/blog/6-interesting-machine-learning-project-ideas-for-beginners/
   * https://elitedatascience.com/machine-learning-projects-for-beginners
+  * https://www.dezyre.com/article/top-10-machine-learning-projects-for-beginners/397
