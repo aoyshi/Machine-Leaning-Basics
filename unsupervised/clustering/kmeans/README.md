@@ -10,6 +10,9 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 ## OUTPUT:
 [c1...ck] = array of k centroids (each centroid is a point with p features)
 
+# Objective:
+Implement k-means (with k-means++ seeding) from scratch, and compare output and performance with sci-kit learn's built-in k-means module.
+
 # PSEUDOCODE:
 1. Initialize/seed k centroids using kmeans++ (can also use Llyod's random initialization)
 
