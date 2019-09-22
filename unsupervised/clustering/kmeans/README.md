@@ -17,11 +17,9 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
    
    1b. For each remaining centroid (c=1 -> k-1), do
   
-       (i) Get min squared distance from each data point in X to nearest centroid (thats already been chosen) -> store in array DX2
-       
-      (ii) Get weighted probability distribution of each data point wrt DX2
-      
-     (iii) Pick data point from X randomly by weight of DX2/DX2.sum - this is next centroid
+        (i) Get min squared distance from each data point in X to nearest centroid (thats already been chosen) -> store in array DX2
+       (ii) Get weighted probability distribution of each data point wrt DX2
+       (iii) Pick data point from X randomly by weight of DX2/DX2.sum - this is next centroid
      
 2. Initialize counter for number of iterations
 
