@@ -16,7 +16,7 @@ A parametric approach to density estimation is sensible if one has some justific
   * Bernoulli Distribution
   * Binomial Distribution
   * Poisson Distribution
-#### GREAT article detailed all 6 parametric distributions: https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/\
+#### GREAT article detailed all 6 parametric distributions: https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/
 
 
 ### Non-Parametric:
@@ -27,7 +27,7 @@ Let X = X1, . . . , Xn be a sample from a distribution P with density p. The goa
 3. Orthogonal Series Estimators
 4. Penalized Maximum Likelihood Estimators
 5. Density Estimation via Nonparametric Regression
-#### Article detailed all 5 non-parametric distributions: http://anson.ucdavis.edu/~mueller/encycl5-1.pdf\
+#### Article detailed all 5 non-parametric distributions: http://anson.ucdavis.edu/~mueller/encycl5-1.pdf
 
 
 ## *PDF: Probability Density Function
