@@ -57,7 +57,7 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 
 ## Limitations of my implementation:
 1. Sometimes the initial seeding by kmeans++ will get stuck in a local minimum (two seeds in the same cluster, i.e. the algorithm mistakenly splits up one cluster as two or more): the occurence of this is more prevalent as the number of clusters increases. This problem never happens with sci-kit learn's built-in kmeans. 
-2. OThe plotting functions only work for 2D and 3D data (but the actual kmeans will work for all dimensions)
+2. The plotting functions only work for 2D and 3D data (but the actual kmeans will work for all dimensions)
 3. Only works for upto 12 clusters
 
 # Helpful Links:
@@ -71,3 +71,4 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 8. Other people's kmeans++ implementations:
   * https://datasciencelab.wordpress.com/2014/01/15/improved-seeding-for-clustering-with-k-means/
   * https://medium.com/machine-learning-algorithms-from-scratch/k-means-clustering-from-scratch-in-python-1675d38eee42
+9. K-Means real-world project ideas: https://dzone.com/articles/10-interesting-use-cases-for-the-k-means-algorithm
