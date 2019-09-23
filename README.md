@@ -14,10 +14,10 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 1. Kernel Density Estimation
 
 ## Books I'm currently following:
-1. Basics of Linear Algebra for Machine Learning by Jason Brownlee
-2. Machine Learning for Developers by Rodolfo Bonnin
-3. Machine Learning Algorithms by Giuseppe Bonaccorso
-4. Artificial Intelligence: A Modern Approach by Russell & Norvig
+1. [Basics of Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear_algebra_for_machine_learning/) by Jason Brownlee
+2. [Machine Learning for Developers](https://www.amazon.com/Machine-Learning-Developers-applications-statistics-ebook/dp/B071Y3Y1FK) by Rodolfo Bonnin
+3. [Machine Learning Algorithms](https://www.amazon.com/Machine-Learning-Algorithms-reference-algorithms-ebook/dp/B072QBG11J) by Giuseppe Bonaccorso
+4. [Artificial Intelligence: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597) by Russell & Norvig
 
 ## Useful Links:
 1. Python Exercises: https://www.pythonmorsels.com/exercises/list/
