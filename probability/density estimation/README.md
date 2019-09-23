@@ -1,6 +1,8 @@
 # Density Estimation
-Why do we need it: We work only with samples (observable) taken from the real population (unobservable), so must approximate back from the sample to the population.\
-Formally: Density estimation is the construction of an estimate, based on observed data, of an unobservable underlying probability density function (PDF*), according to which a large population is distributed.\
+Why do we need it:\
+We work only with samples (observable) taken from the real population (unobservable), so must approximate back from the sample to the population.\
+Formally:\
+Density estimation is the construction of an estimate, based on observed data, of an unobservable underlying probability density function (PDF*), according to which a large population is distributed.
 
 ## Types of Density Estimations
 ### Parametric Density Estimation:
