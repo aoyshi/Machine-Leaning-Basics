@@ -1,4 +1,5 @@
-# Kernel Density Estimation (Parzen-Rosenblatt Window Estimation)
+# Kernel Density Estimation 
+# (Parzen-Rosenblatt Window Estimation)
 
 ### Helpful Links:
 1. Interactive explanation of KDE: https://mathisonian.github.io/kde/
