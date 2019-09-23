@@ -16,21 +16,21 @@ A parametric approach to density estimation is sensible if one has some justific
   * Bernoulli Distribution
   * Binomial Distribution
   * Poisson Distribution
-#### GREAT article detailed all 6 parametric distributions: 
-https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/
+#### GREAT article detailed all 6 parametric distributions: https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/\
+
 
 ### Non-Parametric:
-Assumes that the sample data came from a population that can be modeled by a probability distribution which has a NON-FIXED parameter set, i.e. the number of parameters can increase, or even decrease, if new relevant information is collected./
-Let X = X1, . . . , Xn be a sample from a distribution P with density p. The goal of nonparametric density estimation is to estimate p with as few assumptions about p as possible (assuming only that it is “smooth”). The estimator will depend on a smoothing parameter h and choosing h carefully is crucial.
+Assumes that the sample data came from a population that can be modeled by a probability distribution which has a NON-FIXED parameter set, i.e. the number of parameters can increase, or even decrease, if new relevant information is collected.\
+Let X = X1, . . . , Xn be a sample from a distribution P with density p. The goal of nonparametric density estimation is to estimate p with as few assumptions about p as possible (assuming only that it is “smooth”). The estimator will depend on a smoothing parameter h  (called the bandwidth) and choosing h carefully is crucial.
 1. Histograms
 2. Kernel Density Estimation
 3. Orthogonal Series Estimators
 4. Penalized Maximum Likelihood Estimators
 5. Density Estimation via Nonparametric Regression
-#### Article detailed all 5 non-parametric distributions: 
-http://anson.ucdavis.edu/~mueller/encycl5-1.pdf
+#### Article detailed all 5 non-parametric distributions: http://anson.ucdavis.edu/~mueller/encycl5-1.pdf\
+
 
 ## *PDF: Probability Density Function
-PDF of a continuous random variable, is a function whose value at any given point provides a relative likelihood** that the value of the random variable would equal that point. PDF is non-negative, and integral over entire graph = 1.\
-The PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of the PDF over that range (i.e. area under the density function).\
+PDF of a continuous random variable, is a function whose value at any given point provides a relative likelihood** that the value of a drawn random variable would equal that. PDF is non-negative, and its integral over the entire space = 1.\
+The PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of the PDF over that range (i.e. area under the density function graph).\
 **Absolute Likelihood: the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there are an infinite set of possible values to begin with).
