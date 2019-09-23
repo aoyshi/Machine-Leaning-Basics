@@ -11,8 +11,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 3. Linear Regression
 4. K-NN (K Nearest Neighbors)
 ### Miscellaneous:
-#### Non-Parametric Probability Density Estimation
-1. Kernel Density Estimation (Parzen Window Estimation)
+1. Kernel Density Estimation
 
 ## Books I'm currently following:
 1. Basics of Linear Algebra for Machine Learning by Jason Brownlee
