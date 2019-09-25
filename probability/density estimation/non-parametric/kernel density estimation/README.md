@@ -8,18 +8,18 @@
   * The KDE is calculated by weighting the distances of all the data points we’ve seen for each location. If we’ve seen more points nearby, the estimate is higher, indicating the probability of seeing a point at that location. 
   * The Kernel function determines how the point distances are weighted, which determine how much the data points surrounding a location contribute to the estimation at that location. Kernel curves exist for each location on the kDE curve and are bell-shaped (like a minima)
   * The concept of weighting the distances of our observations from a particular point, x, can be expressed mathematically as follows:
-
-\hat{f}(x) = \sum_{observations}^{}{K(\frac{x - observation}{bandwidth})} 
-f
-^
-​	 (x)= 
-observations
-∑
-​	 K( 
-bandwidth
-x−observation
-​	 )
-The variable K represents the kernel function. Using different kernel functions will produce different estimates.
+    * P(x) = 1/N * SUM( 1/h^d * K((x-xi)/h) ) for all xi in X 
+      * K = kernel function, in our case hypercube kernel\
+      Hypercube Kernel:  K(u) = 1 if |u|<=0.5, 0 otherwise
+      * X = data set
+      * xi = each point (row) in data set
+      * N = number of data points in X
+      * h = bandwidth
+      * d = dimension of data (number of features) 
+    
+  * Types of Kernel Functions:\
+  Using different kernel functions will produce different estimates.\
+  List of different kernels: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/MISHRA/kde.html
 
 ### Bandwidth (h)
   * KDE algorithm takes one parameter, bandwidth h, that affects how “smooth” the resulting curve is.\
