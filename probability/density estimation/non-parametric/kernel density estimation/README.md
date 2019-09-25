@@ -1,6 +1,33 @@
 # Kernel Density Estimation 
 # (Parzen-Rosenblatt Window Estimation)
 
+## What is it?
+  * KDE is a technique that lets you create a smooth curve given a set of data from an unknown distribution, helping to visualize just the “shape” of some data, instead of just a discrete histogram. KDE creates an estimate of the underlying distribution.\
+
+### Kernel Function K(u)
+  * The KDE is calculated by weighting the distances of all the data points we’ve seen for each location. If we’ve seen more points nearby, the estimate is higher, indicating the probability of seeing a point at that location. 
+  * The Kernel function determines how the point distances are weighted, which determine how much the data points surrounding a location contribute to the estimation at that location. Kernel curves exist for each location on the kDE curve and are bell-shaped (like a minima)
+  * The concept of weighting the distances of our observations from a particular point, x, can be expressed mathematically as follows:
+
+\hat{f}(x) = \sum_{observations}^{}{K(\frac{x - observation}{bandwidth})} 
+f
+^
+​	 (x)= 
+observations
+∑
+​	 K( 
+bandwidth
+x−observation
+​	 )
+The variable K represents the kernel function. Using different kernel functions will produce different estimates.
+
+### Bandwidth (h)
+  * KDE algorithm takes one parameter, bandwidth h, that affects how “smooth” the resulting curve is.\
+  * Changing the bandwidth changes the shape of the kernel: a lower bandwidth means only points very close to the current position are given any weight, which leads to the estimate looking squiggly; a higher bandwidth means a shallow kernel where distant points can contribute.
+
+Move your mouse over the graphic to see how the data points contribute to the estimation — the “brighter” a selection is, the more likely that location is. The red curve indicates how the point distances are weighted, and is called the kernel function. The points are colored according to this function.
+
+
 ### Helpful Links:
 1. Interactive explanation of KDE: https://mathisonian.github.io/kde/
 2. Most comprehensive guide on KDE: https://sebastianraschka.com/Articles/2014_kernel_density_est.html
