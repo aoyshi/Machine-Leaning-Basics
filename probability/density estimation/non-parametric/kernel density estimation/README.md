@@ -4,7 +4,7 @@
 ## What is it?
   * KDE is a technique that lets you create a smooth curve given a set of data (creates an estimate of the underlying distribution., helping to visualize just the “shape” of some data, instead of just a discrete histogram  problems with histograms are that they are not smooth, and too dependent on the width of the bins and the end points of the bins). KDE 
 
-### Kernel Function K(u)
+### Kernel Function
   * The KDE is calculated by weighting the distances of all the data points we’ve seen for each location. If we’ve seen more points nearby, the estimate is higher, indicating the probability of seeing a point at that location. 
   * The Kernel function determines how the point distances are weighted, which determine how much the data points surrounding a location contribute to the estimation at that location. Kernel functions are centered at each data point (removing dependence on bin widths)
   * The concept of weighting the distances of our observations from a particular point, x, can be expressed mathematically as follows:
@@ -20,7 +20,7 @@ is known as a Parzen window or the naïve estimator
       * d = dimension of data (number of features) \
       h^d for d=1 is just points along a line through x, for d=2, it is a cube in which if x falls within, it is considered in the estimation.
     
-  * Types of Kernel Functions:\
+  * Types of Kernel Functions:
     * Using the Parzen window hypercube kernel has a serious drawback: it weights equally all points 𝑥𝑖, regardless of their distance to the estimation point 𝑥. For these reasons, the Parzen window is commonly replaced with a smooth kernel function 𝐾(𝑢) like the Gaussian kernel
     * Just as the Parzen window estimate can be seen as a sum of boxes centered at the data, the smooth kernel estimate is a sum of “bumps”. The specific type of kernel function used determines the shape of these bumps. The parameter ℎ, also called the smoothing parameter or bandwidth, determines their width. Hence, using different kernel functions will produce different estimates.\
     List of different kernels: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/MISHRA/kde.html
