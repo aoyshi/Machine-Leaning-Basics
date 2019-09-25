@@ -22,7 +22,7 @@
   List of different kernels: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/MISHRA/kde.html
 
 ### Bandwidth (h)
-  * KDE algorithm takes one parameter, bandwidth h, that affects how “smooth” the resulting curve is.\
+  * KDE algorithm takes one parameter, bandwidth h, that affects how “smooth” the resulting curve is.
   * Changing the bandwidth changes the shape of the kernel: a lower bandwidth means only points very close to the current position are given any weight, which leads to the estimate looking squiggly; a higher bandwidth means a shallow kernel where distant points can contribute.
 
 Move your mouse over the graphic to see how the data points contribute to the estimation — the “brighter” a selection is, the more likely that location is. The red curve indicates how the point distances are weighted, and is called the kernel function. The points are colored according to this function.
