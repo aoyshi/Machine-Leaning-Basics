@@ -2,7 +2,7 @@
 # (Parzen-Rosenblatt Window Estimation)
 
 ## What is it?
-  * KDE is a technique that lets you create a smooth curve given a set of data from an unknown distribution, helping to visualize just the “shape” of some data, instead of just a discrete histogram. KDE creates an estimate of the underlying distribution.\
+  * KDE is a technique that lets you create a smooth curve given a set of data from an unknown distribution, helping to visualize just the “shape” of some data, instead of just a discrete histogram. KDE creates an estimate of the underlying distribution.
 
 ### Kernel Function K(u)
   * The KDE is calculated by weighting the distances of all the data points we’ve seen for each location. If we’ve seen more points nearby, the estimate is higher, indicating the probability of seeing a point at that location. 
