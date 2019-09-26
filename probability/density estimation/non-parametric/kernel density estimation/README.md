@@ -2,7 +2,7 @@
 # (Parzen-Rosenblatt Window Estimation)
 
 ## What is it?
-  * KDE is a technique that lets you create a smooth curve given a set of data (creates an estimate of the underlying distribution., helping to visualize just the “shape” of some data, instead of just a discrete histogram  problems with histograms are that they are not smooth, and too dependent on the width of the bins and the end points of the bins). KDE 
+  * KDE is a technique that lets you create a smooth curve given a set of data (i.e. it creates an estimate of the underlying distribution), this helps to visualize just the “shape” of some data, instead of just a discrete histogram (problems with histograms are that they are not smooth, and too dependent on the width of the bins and the end points of the bins).
 
 ### Kernel Function
   * The Kernel controls the weight given to the observations {xi} at each point x based on their proximity to x. It determines how much the data points surrounding a location contribute to the estimation at that location. Kernel functions are centered at each data point (removing dependence on bin widths)
@@ -19,7 +19,7 @@ is known as a Parzen window or the naïve estimator
       * d = dimension of data (number of features) \
       h^d for d=1 is just points along a line through x, for d=2, it is a cube in which if x falls within, it is considered in the estimation.
     
-  * Types of Kernel Functions:
+  * **Types of Kernel Functions**:
     * Using the Parzen window hypercube kernel has a drawback: it weights equally all points 𝑥𝑖, regardless of their distance to the estimation point 𝑥. For these reasons, the Parzen window is commonly replaced with a smooth kernel function 𝐾(𝑢) like the Gaussian kernel. But remember the whole point of using the Parzen window is that you do NOT KNOW ANYTHING about the underlying distribution, using any other kernels assumes that the underlying distribution is of a certain type.
     * Just as the Parzen window estimate can be seen as a sum of boxes centered at the data, the smooth kernel estimate is a sum of “bumps”. The specific type of kernel function used determines the shape of these bumps. The parameter ℎ, also called the smoothing parameter or bandwidth, determines their width. Hence, using different kernel functions will produce different estimates.\
     List of different kernels: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/MISHRA/kde.html
@@ -29,10 +29,10 @@ is known as a Parzen window or the naïve estimator
   * KDE algorithm takes one parameter, bandwidth h, that affects how “smooth” the resulting curve is.
   * The contribution of data point x(i) to the estimate at some point x depends on how apart x(i) and x are.
   * Changing the bandwidth changes the shape of the kernel: a lower bandwidth means only points very close to the current position are given any weight, which leads to the estimate looking squiggly; a higher bandwidth means a shallow kernel where distant points can contribute.
-  * Choosing the right bandwidth is critical:
-    * Undersmoothing: When the bandwidth is 0.1 (very narrow) then the kernel density estimate is said to undersmoothed as the bandwidth is too small: spiky estimates with no smoothing, very hard to interpret
-    * Oversmoothing: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
-    * Optimal h (univariate):
+  * **Choosing the right bandwidth is critical**:
+    * **Undersmoothing**: When the bandwidth is 0.1 (very narrow) then the kernel density estimate is said to undersmoothed as the bandwidth is too small: spiky estimates with no smoothing, very hard to interpret
+    * **Oversmoothing**: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
+    * **Optimal h (univariate)**:
       * 1. Minimum AMISE (Asymptotic Mean Integrated Squared Error)
       * 2. Maximum Likelihood Cross Validation
       
