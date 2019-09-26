@@ -37,7 +37,9 @@ is known as a Parzen window or the naïve estimator
       * 2. Maximum Likelihood Cross Validation
       
 ### Multivariate KDE:
-Use the Product Kernel as an alternative to regular Kernel. Slides 21-23: http://research.cs.tamu.edu/prism/lectures/pr/pr_l7.pdf
+Use the Product Kernel as an alternative to regular Kernel. \
+Best slides on product kernels for multivariate density estimation: http://www.buch-kromann.dk/tine/nonpar/Nonparametric_Density_Estimation_multidim.pdf  \
+Slides 21-23: http://research.cs.tamu.edu/prism/lectures/pr/pr_l7.pdf
 
 ### Helpful Links:
 1. Interactive explanation of KDE: https://mathisonian.github.io/kde/
