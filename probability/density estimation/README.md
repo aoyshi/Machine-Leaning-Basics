@@ -1,7 +1,7 @@
 # Density Estimation
-Why do we need it:\
+**Why do we need it:**\
 We work only with samples (observable) taken from the real population (unobservable), so must approximate back from the sample to the population.\
-Formally:\
+**Formally:**\
 Density estimation is the construction of an estimate, based on observed data, of an unobservable underlying probability density function (PDF*), according to which a large population is distributed.
 
 ## Types of Density Estimations
@@ -33,4 +33,4 @@ Let X = X1, . . . , Xn be a sample from a distribution P with density p. The goa
 ## *PDF: Probability Density Function
 PDF of a continuous random variable, is a function whose value at any given point provides a relative likelihood** that the value of a drawn random variable would equal that. PDF is non-negative, and its integral over the entire space = 1.\
 The PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of the PDF over that range (i.e. area under the density function graph).\
-**Absolute Likelihood: the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there are an infinite set of possible values to begin with).
+****Absolute Likelihood**: the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there are an infinite set of possible values to begin with).
