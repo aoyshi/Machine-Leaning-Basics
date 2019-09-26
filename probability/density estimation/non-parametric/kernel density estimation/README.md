@@ -2,7 +2,7 @@
 # (Parzen-Rosenblatt Window Estimation)
 
 ## What is it?
-  * KDE is a technique that lets you create a smooth curve given a set of data (i.e. it creates an estimate of the underlying distribution), this helps to visualize just the “shape” of some data, instead of just a discrete histogram (problems with histograms are that they are not smooth, and too dependent on the width of the bins and the end points of the bins).
+  * KDE is a technique that lets you create a smooth curve given a set of data (i.e. it creates an estimate of the underlying distribution), this helps to visualize the “shape” of some data, instead of just a discrete histogram (problems with histograms are that they are not smooth, and too dependent on the width of the bins and the end points of the bins).
 
 ### Kernel Function
   * The Kernel controls the weight given to the observations {xi} at each point x based on their proximity to x. It determines how much the data points surrounding a location contribute to the estimation at that location. Kernel functions are centered at each data point (removing dependence on bin widths)
