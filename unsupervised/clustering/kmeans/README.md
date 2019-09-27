@@ -14,6 +14,7 @@ k = number of centroids (aka clusters. centroids are the centers, aka means, of 
 Implement k-means (with k-means++ seeding) from scratch, and compare output and performance with sci-kit learn's built-in k-means module.
 
 # PSEUDOCODE:
+
 1. Initialize/seed k centroids using kmeans++ (can also use Llyod's random initialization)
 
    1a. Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
@@ -26,7 +27,7 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
      
 2. Initialize counter for number of iterations
 
-3. While number of iterations < 1000, do
+3. While number of iterations < maxIter, do
 
     3a. Increment number of iterations counter
     
@@ -40,7 +41,18 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
          (i) find the mean of all the data points assigned to it
         (ii) assign new centroid value to corresponding old one
        (iii) calculate the L2-norm distance between new and old centroid
-        (iv)  if this L2-norm distance is <= 0
+        (iv)  if any of these L2-norm distances is <= 0, exit the loop
+    
+    3c. Calculate SSE for this set of centroids
+      
+        (i) Initialize SSE sum counter=0
+        (ii) Loop through all xi in X
+           * find its assigned centroid, c
+           * calculate squared distance between xi and c
+           * add to SSE sum counter
+
+4. Repeat steps 1->3 as many times as specified by user, and return the batch with the lowest SSE
+
 
  # Run on Jupyter Notebook:
  1. Simply Run All Cells for the Jupyter Notebook file provided.
