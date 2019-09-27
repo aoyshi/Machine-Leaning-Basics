@@ -33,9 +33,9 @@ is known as a Parzen window or the naïve estimator
     * **Undersmoothing**: When the bandwidth is 0.1 (very narrow) then the kernel density estimate is said to undersmoothed as the bandwidth is too small: spiky estimates with no smoothing, very hard to interpret
     * **Oversmoothing**: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
     * **Optimal h (univariate)**:
-      * 1. Holdout Method 
-      * 2. Minimum AMISE (Asymptotic Mean Integrated Squared Error)
-      * 3. Cross Validation:
+      * Holdout Method 
+      * Minimum AMISE (Asymptotic Mean Integrated Squared Error)
+      * Cross Validation:
         * K-Fold CV
         * Maximum Likelihood (Leave-One-Out) CV
         * Least Squares CV
