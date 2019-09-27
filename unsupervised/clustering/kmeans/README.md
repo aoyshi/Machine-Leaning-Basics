@@ -51,7 +51,7 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 -- KMeans++ does a smarter random seeding of centroids - data points that are farther away from the set of already chosen centroids are more likely to be picked as the next centroid.
 
 ## Limitations of my implementation:
-1. Sometimes the initial seeding by kmeans++ will get stuck in a local minimum (two seeds in the same cluster, i.e. the algorithm mistakenly splits up one cluster as two or more): the occurence of this is more prevalent as the number of clusters increases. This problem never happens with sci-kit learn's built-in kmeans. 
+1. Sometimes the initial seeding by kmeans++ will get stuck in a local minimum (two seeds in the same cluster, i.e. the algorithm mistakenly splits up one cluster as two or more): the occurence of this is more prevalent as the number of clusters increases. This problem never happens with sci-kit learn's built-in kmeans. \
 ** Edit 9/26/2019: I have greatly reduced the occurence of this problem by running the kmeans algorithm multiple times over the data set. The number of times to repeat kmeans can be specified by the user via a "reps" integer parameter, similar to the n_init parameter for scikit learn's KMeans function. 
 2. The plotting functions only work for 2D and 3D data (but the actual kmeans centroid finding algorithm will work for all dimensions)
 3. Only works for upto 12 clusters
