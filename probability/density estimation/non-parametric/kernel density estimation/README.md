@@ -34,7 +34,12 @@ is known as a Parzen window or the naïve estimator
     * **Oversmoothing**: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
     * **Optimal h (univariate)**:
       * 1. Minimum AMISE (Asymptotic Mean Integrated Squared Error)
-      * 2. Maximum Likelihood Cross Validation
+      * 2. Maximum Likelihood Cross Validation (leave-one-out)
+      * Articles detailing all methods of choosing h:
+        * http://assets.press.princeton.edu/chapters/s8355.pdf
+        * http://pages.cs.wisc.edu/~jerryzhu/cs731/kde.pdf
+        * https://www.cs.cmu.edu/~schneide/tut5/node42.html
+        * http://www2.stat.duke.edu/~wjang/teaching/S05-293/lecture/ch6.pdf
       
 ### Multivariate KDE:
 Use the Product Kernel as an alternative to regular Kernel. \
