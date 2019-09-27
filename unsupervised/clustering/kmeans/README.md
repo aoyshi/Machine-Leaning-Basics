@@ -15,6 +15,13 @@ Implement k-means (with k-means++ seeding) from scratch, and compare output and 
 
 # PSEUDOCODE:
 
+0. Initialize parameters:
+  * N = total number of data points
+  * d = dimensions of data
+  * k = number of clusters
+  * maxIter = maximum number of iterations to run inside kmeans
+  * reps = minimum number of times to repeat kmeans over X
+
 1. Initialize/seed k centroids using kmeans++ (can also use Llyod's random initialization)
 
    1a. Randomly choose first centroid (c=0) from X (remove already selected centroid from X as you go)
