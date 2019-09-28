@@ -43,7 +43,6 @@ is known as a Parzen window or the naïve estimator
       * Articles detailing all methods of choosing h:
         * http://assets.press.princeton.edu/chapters/s8355.pdf
         * http://pages.cs.wisc.edu/~jerryzhu/cs731/kde.pdf
-        * https://www.cs.cmu.edu/~schneide/tut5/node42.html  (general CV definition)
         * http://www2.stat.duke.edu/~wjang/teaching/S05-293/lecture/ch6.pdf
       
 ### Multivariate KDE:
