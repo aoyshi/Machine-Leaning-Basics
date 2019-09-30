@@ -11,22 +11,22 @@ Each data point either belongs to a cluster completely or not.
 Instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned.
 
 ## Types of Clustering Algorithms:
-1. Connectivity Models
+1. Connectivity Models \
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
-  * Hierarchical Clustering:
+  * Hierarchical Clustering: \
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
-      * a) Agglomerative Clustering:
+      * a) Agglomerative Clustering: \
            Bottom-Up approach: we merge clusters from the previous level. \
            All data points are classified into separate clusters & then aggregated as the distance decreases.
       * b) Divisive Clustering:
            Top-Down approach: we split clusters from the previous level. \
-           All data points are classified as a single cluster and then partitioned as the distance increases.
+           All data points are classified as a single cluster and then partitioned as the distance increases. \
 Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.
 <hr>
-2. Centroid Models
-These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. 
-  * Partitioning Clustering:
-    * a) K-Means Clustering:
+2. Centroid Models \
+These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. \
+  * Partitioning Clustering: \
+    * a) K-Means Clustering: \
          Partition the data into k clusters and each partition forms one cluster, with the centroid being the mean of all the points assigned to that cluster. Points belong to the cluster with the closest centroid.
     * b) K-Medoid Clustering:
          Variation of kmeans using medoids instead of means.
