@@ -34,7 +34,9 @@ is known as a Parzen window or the naïve estimator
     * **Oversmoothing**: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
     * **Optimal h (univariate)**:
       * Plug-In Methods (Non-Automatic/Not data-driven):
-        * Silverman's rule of thumb for h-pilot
+        * Silverman's rule of thumb
+        * Scott's rule of thumb
+        * Normal Reference Rule
         * Minimum AMISE (Asymptotic Mean Integrated Squared Error)
       * Automatic, Data-Driven Methods:
         * Cross Validation:
