@@ -21,7 +21,8 @@ These models are based on the notion that the data points closer in data space e
       * b) **Divisive Clustering**: \
            Top-Down approach - we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases. \
-Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.
+           
+_Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets._
 ------------
 #### II. Centroid Models 
 These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. 
@@ -42,12 +43,12 @@ These clustering models are based on the notion of how probable is it that all d
 Verdict: Suffers from overfitting. 
 ------------
 #### IV. Density Models: 
-These models search the data space for areas of varied density of data points: it considers the clusters as the 'dense' region having some similarity and being different from the lower dense regions. \
+These models search the data space for areas of varied density of data points: it considers the clusters as the 'dense' region having some similarity and being different from the lower dense regions.
   * a) **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise)
   * b) **OPTICS** (Ordering Points to Identify Clustering Structure)
 ------------
 #### V. Grid-based Models:
-The data space is formulated into a finite number of cells that form a grid-like structure. All the clustering operation done on these grids are fast and independent of the number of data objects. \
+The data space is formulated into a finite number of cells that form a grid-like structure. All the clustering operation done on these grids are fast and independent of the number of data objects. 
   * a) **STING** (Statistical Information Grid)
   * b) **Wave Cluster**
   * c) **CLIQUE** (CLustering In Quest)
