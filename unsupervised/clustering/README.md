@@ -13,7 +13,7 @@ Instead of putting each data point into a separate cluster, a probability or lik
 ## Types of Clustering Algorithms:
 #### I. Connectivity Models 
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. \
-_Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets._
+_Verdict: Very easy to interpret but lack scalability for handling big datasets._
   * **Hierarchical Clustering**: \
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
       * a) **Agglomerative Clustering**: \
@@ -21,7 +21,7 @@ _Verdict: Connective models are very easy to interpret but lack scalability for 
            All data points are classified into separate clusters & then aggregated as the distance decreases.
       * b) **Divisive Clustering**: \
            Top-Down approach - we split clusters from the previous level. \
-           All data points are classified as a single cluster and then partitioned as the distance increases. \
+           All data points are classified as a single cluster and then partitioned as the distance increases. 
 ------------
 #### II. Centroid Models 
 These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. \
@@ -39,7 +39,7 @@ _Verdict: The number of clusters required at the end have to be mentioned before
 These clustering models are based on the notion of how probable is it that all data points in the cluster belong to the same distribution (For example: Normal, Gaussian). \
 _Verdict: Suffers from overfitting._
   * **Expectation-Maximization (EM) Clustering**: \
-    The goal of EM clustering is to estimate the means and standard deviations for each cluster so as to maximize the likelihood of the observed data (distribution). It is a soft-clustering method - it does not compute actual assignments of observations to clusters, but classification probabilities.... i.e. each observation belongs to each cluster with a certain probability. \
+    The goal of EM clustering is to estimate the means and standard deviations for each cluster so as to maximize the likelihood of the observed data (distribution). It is a soft-clustering method - it does not compute actual assignments of observations to clusters, but classification probabilities.... i.e. each observation belongs to each cluster with a certain probability. 
 ------------
 #### IV. Density Models: 
 These models search the data space for areas of varied density of data points: it considers the clusters as the 'dense' region having some similarity and being different from the lower dense regions.
