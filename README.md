@@ -11,7 +11,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 3. Linear Regression
 4. K-NN (K Nearest Neighbors)
 ### Miscellaneous:
-1. [Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/probability/density%20estimation)
+1. [Density Estimation - Non-Parametric vs Parametric](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/probability/density%20estimation)
 2. [Kernel Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/probability/density%20estimation/non-parametric/kernel%20density%20estimation)
 
 ## Books I'm currently following:
