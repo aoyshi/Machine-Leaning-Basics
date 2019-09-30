@@ -22,7 +22,7 @@ These models are based on the notion that the data points closer in data space e
            Top-Down approach - we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases. \
 Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.
-<hr>
+<hr />
 #### Connectivity Models 
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
   * Hierarchical Clustering: \
