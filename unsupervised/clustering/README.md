@@ -3,7 +3,7 @@
 Clustering is an unsupervised learning method for learning the underlying structure of unlabeled data. \
 It is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups.
 
-### Broad Sub-groups of Clustering:
+### Broad sub-groups of clustering:
 
 1. **Hard Clustering**:
 Each data point either belongs to a cluster completely or not. 
@@ -21,7 +21,6 @@ These models are based on the notion that the data points closer in data space e
       * b) **Divisive Clustering**: \
            Top-Down approach - we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases. \
-           
 _Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets._
 ------------
 #### II. Centroid Models 
