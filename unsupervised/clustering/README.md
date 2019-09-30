@@ -11,19 +11,19 @@ Each data point either belongs to a cluster completely or not.
 Instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned.
 
 ## Types of Clustering Algorithms:
-#### I. Connectivity Models 
+#### Connectivity Models 
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
   * Hierarchical Clustering: \
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
       * a) Agglomerative Clustering: \
-           Bottom-Up approach: we merge clusters from the previous level. \
+           Bottom-Up approach - we merge clusters from the previous level. \
            All data points are classified into separate clusters & then aggregated as the distance decreases.
-      * b) Divisive Clustering:
-           Top-Down approach: we split clusters from the previous level. \
+      * b) Divisive Clustering: \
+           Top-Down approach - we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases. \
 Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.
 <hr>
-#### I. Connectivity Models 
+#### Connectivity Models 
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
   * Hierarchical Clustering: \
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
