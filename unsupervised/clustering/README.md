@@ -12,7 +12,8 @@ Instead of putting each data point into a separate cluster, a probability or lik
 
 ## Types of Clustering Algorithms:
 #### I. Connectivity Models 
-These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
+These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. \
+_Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets._
   * **Hierarchical Clustering**: \
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
       * a) **Agglomerative Clustering**: \
@@ -21,10 +22,10 @@ These models are based on the notion that the data points closer in data space e
       * b) **Divisive Clustering**: \
            Top-Down approach - we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases. \
-_Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets._
 ------------
 #### II. Centroid Models 
-These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. 
+These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. \
+_Verdict: The number of clusters required at the end have to be mentioned beforehand, so need to have prior knowledge of the dataset._
   * **Partitioning Clustering**: 
     * a) **K-Means Clustering**: \
          Partition the data into k clusters and each partition forms one cluster, with the centroid being the mean of all the points assigned to that cluster. Points belong to the cluster with the closest centroid.
@@ -33,13 +34,12 @@ These are iterative clustering algorithms in which the notion of similarity is d
     * c) **Mini-Batch K-Means**:
          Main idea is to use small random batches of data of a fixed size, so they can be stored in memory. Each iteration a new random sample from the dataset is obtained and used to update the clusters and this is repeated until convergence.
     * d) **CLARANS** (Clustering Large Applications based upon randomized Search) 
-Verdict: The number of clusters required at the end have to be mentioned beforehand, so need to have prior knowledge of the dataset.
 ------------
 #### III. Distribution Models
-These clustering models are based on the notion of how probable is it that all data points in the cluster belong to the same distribution (For example: Normal, Gaussian). 
+These clustering models are based on the notion of how probable is it that all data points in the cluster belong to the same distribution (For example: Normal, Gaussian). \
+_Verdict: Suffers from overfitting._
   * **Expectation-Maximization (EM) Clustering**: \
     The goal of EM clustering is to estimate the means and standard deviations for each cluster so as to maximize the likelihood of the observed data (distribution). It is a soft-clustering method - it does not compute actual assignments of observations to clusters, but classification probabilities.... i.e. each observation belongs to each cluster with a certain probability. \
-Verdict: Suffers from overfitting. 
 ------------
 #### IV. Density Models: 
 These models search the data space for areas of varied density of data points: it considers the clusters as the 'dense' region having some similarity and being different from the lower dense regions.
