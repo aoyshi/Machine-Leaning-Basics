@@ -5,14 +5,14 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 ## Progress so far:
 ### Unsupervised Learning
 1. [K-Means Clustering with K-Means++ Seeding](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/clustering/kmeans)
+2. [Kernel Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation/kmeans)
+  * [Density Estimation (Non-Parametric vs Parametric)](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation)
+ 
 ### Supervised Learning
 1. Naive Baye's Classifier
 2. Logistic Regression
 3. Linear Regression
 4. K-NN (K Nearest Neighbors)
-### Miscellaneous:
-1. [Density Estimation - Non-Parametric vs Parametric](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/probability/density%20estimation)
-2. [Kernel Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/probability/density%20estimation/non-parametric/kernel%20density%20estimation)
 
 ## Books I'm currently following:
 1. [Basics of Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear_algebra_for_machine_learning/) by Jason Brownlee
