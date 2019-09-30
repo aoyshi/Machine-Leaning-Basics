@@ -32,7 +32,7 @@ is known as a Parzen window or the naïve estimator
   * **Choosing the right bandwidth is critical**:
     * **Undersmoothing**: When the bandwidth is 0.1 (very narrow) then the kernel density estimate is said to undersmoothed as the bandwidth is too small: spiky estimates with no smoothing, very hard to interpret
     * **Oversmoothing**: We have chosen a bandwidth that is too large and have obscured most of the structure of the data: flat estimate with few peaks/troughs
-    * **Optimal h (univariate)**:
+    * **Optimal h**:
       * Plug-In Methods (Non-Automatic/Not data-driven):
         * Silverman's rule of thumb
         * Scott's rule of thumb
