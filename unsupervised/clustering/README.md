@@ -5,13 +5,13 @@ It is the task of dividing the population or data points into a number of groups
 
 ### Broad Sub-groups of Clustering:
 
-1.**Hard Clustering**
+1. Hard Clustering:
 Each data point either belongs to a cluster completely or not. 
-2.**Soft Clustering**
+2. Soft Clustering:
 Instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned.
 
 ## Types of Clustering Algorithms:
-1.**Connectivity Models**
+1.**Connectivity Models**\
 These models are based on the notion that the data points closer in data space exhibit more similarity to each other than the data points lying farther away. 
   * Hierarchical Clustering:
     There are different levels of clustering, where each level is obtained by merging, or splitting, clusters from the previous level.
@@ -21,8 +21,9 @@ These models are based on the notion that the data points closer in data space e
       * b) Divisive Clustering:
            Top-Down approach: we split clusters from the previous level. \
            All data points are classified as a single cluster and then partitioned as the distance increases.
-Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.\
-2.**Centroid Models**
+Verdict: Connective models are very easy to interpret but lack scalability for handling big datasets.
+<hr>
+2.**Centroid Models**\
 These are iterative clustering algorithms in which the notion of similarity is derived by the closeness of a data point to the centroid (center, mean) of the clusters. 
   * Partitioning Clustering:
     * a) K-Means Clustering:
@@ -32,16 +33,19 @@ These are iterative clustering algorithms in which the notion of similarity is d
     * c) Mini-Batch K-Means:
          Main idea is to use small random batches of data of a fixed size, so they can be stored in memory. Each iteration a new random sample from the dataset is obtained and used to update the clusters and this is repeated until convergence.
     * d) CLARANS (Clustering Large Applications based upon randomized Search) 
-Verdict: The number of clusters required at the end have to be mentioned beforehand, so need to have prior knowledge of the dataset.\
+Verdict: The number of clusters required at the end have to be mentioned beforehand, so need to have prior knowledge of the dataset.
+<hr>
 3.**Distribution Models**
 These clustering models are based on the notion of how probable is it that all data points in the cluster belong to the same distribution (For example: Normal, Gaussian). 
   * Expectation-Maximization (EM) Clustering:
     The goal of EM clustering is to estimate the means and standard deviations for each cluster so as to maximize the likelihood of the observed data (distribution). It is a soft-clustering method - it does not compute actual assignments of observations to clusters, but classification probabilities.... i.e. each observation belongs to each cluster with a certain probability.
-Verdict: Suffers from overfitting. \
+Verdict: Suffers from overfitting. 
+<hr>
 4.**Density Models**: 
 These models search the data space for areas of varied density of data points: it considers the clusters as the 'dense' region having some similarity and being different from the lower dense regions.
   * a) DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
   * b) OPTICS (Ordering Points to Identify Clustering Structure)
+<hr>
 5.**Grid-based Models**:
 The data space is formulated into a finite number of cells that form a grid-like structure. All the clustering operation done on these grids are fast and independent of the number of data objects.
   * a) STING (Statistical Information Grid)
