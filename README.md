@@ -9,7 +9,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
     * [Non-Parametric vs Parametric DE](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation)
  
 ### Supervised Learning
-1. Naive Baye's Classifier
+1. [Naive Baye's Classifier](https://github.com/aoyshi/Machine-Leaning-Basics/blob/master/supervised/classifiers/naive%20bayes/README.md)
 2. Logistic Regression
 3. Linear Regression
 4. K-NN (K Nearest Neighbors)
