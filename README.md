@@ -5,7 +5,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 ## Progress so far:
 ### Unsupervised Learning
 1. [K-Means Clustering with K-Means++ Seeding](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/clustering/kmeans)
-2. [Kernel Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation/kmeans)
+2. [Kernel Density Estimation](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation/non-parametric/kernel%20density%20estimation)
     * [Non-Parametric vs Parametric DE](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/unsupervised/density%20estimation)
  
 ### Supervised Learning
