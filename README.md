@@ -21,6 +21,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 4. [Artificial Intelligence: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597) by Russell & Norvig
 5. [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0) by Sebastian Raschka
 6. [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics-ebook/dp/B07CMM4TWS/ref=sr_1_2?crid=1K9OVSY5WXCRD&keywords=pattern+recognition+and+machine+learning+bishop&qid=1569874510&s=digital-text&sprefix=pattern+recog%2Cdigital-text%2C303&sr=1-2) by Christopher M. Bishop
+7. [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057/ref=sr_1_3?crid=2BN0WAFBE8LG9&keywords=python+data+science+handbook&qid=1572560826&sprefix=python+data+s%2Caps%2C189&sr=8-3) by Jake Vanderplas
 
 ## Useful Links:
 1. Python Exercises: https://www.pythonmorsels.com/exercises/list/
