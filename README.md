@@ -12,7 +12,7 @@ Best video overview of all ML toolkits: https://www.youtube.com/watch?v=WQt4H1Bo
 1. [Naive Baye's Classifier](https://github.com/aoyshi/Machine-Leaning-Basics/blob/master/supervised/classifiers/naive%20bayes/README.md)
 2. Logistic Regression
 3. Linear Regression
-4. K-NN (K Nearest Neighbors)
+4. [K-NN (K Nearest Neighbors)](https://github.com/aoyshi/Machine-Leaning-Basics/tree/master/supervised/classifiers/k-nearest-neighbors)
 
 ## Books I'm currently following:
 1. [Basics of Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear_algebra_for_machine_learning/) by Jason Brownlee
