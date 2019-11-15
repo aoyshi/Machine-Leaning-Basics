@@ -16,7 +16,8 @@
 ‘k’ in KNN is a parameter that refers to the number of nearest neighbours to include in the majority of the voting process.\
   * Small values for K can be noisy and subject to the effects of outliers.
   * Larger values of K will have smoother decision boundaries which mean lower variance but increased bias.
-  * Choosing odd values of k will help avoid confusion between two classes of data
+  * Choosing odd values of k will help avoid confusion between two classes of data\
+
 (1) Quick-fix: K=sqrt(N) where N=total number of samples in training dataset.\
 (2) More robust method: cross-validation. Select the cross-validation dataset from the training dataset. Take a small portion from the training dataset and call it a validation dataset, and then use the validation set to evaluate different possible values of K. This way we are going to predict the label for every instance in the validation set using with K equals to 1, K equals to 2, K equals to 3...and then we look at what value of K gives us the best performance on the validation set and then we can take that value and use that as the final setting of our algorithm so we are minimizing the validation error.
   
